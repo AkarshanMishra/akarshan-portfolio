@@ -1,3 +1,18 @@
+/* ===== THEME VARIABLES ===== */
+:root{
+  --bg-color:#020617;        /* dark background */
+  --text-color:#f8fafc;     /* dark text */
+  --card-bg:rgba(255,255,255,0.08);
+  --border-color:rgba(255,255,255,0.15);
+}
+
+/* Light Mode */
+body.light{
+  --bg-color:#f8fafc;
+  --text-color:#020617;
+  --card-bg:rgba(0,0,0,0.06);
+  --border-color:rgba(0,0,0,0.15);
+}
 :root{
   --bg:#020617;
   --text:#f8fafc;
@@ -414,5 +429,6 @@ body.light{
   border:4px solid rgba(34,211,238,.6);
   box-shadow:0 0 30px rgba(34,211,238,.5);
 }
+
 
 
