@@ -466,6 +466,31 @@ body.light{
   border:4px solid rgba(34,211,238,.6);
   box-shadow:0 0 30px rgba(34,211,238,.5);
 }
+.social-links{
+  margin-top:12px;
+  display:flex;
+  gap:16px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.social-links a{
+  text-decoration:none;
+  padding:8px 14px;
+  border-radius:20px;
+  font-size:14px;
+  font-weight:500;
+  background:var(--card-bg);
+  border:1px solid var(--border-color);
+  color:var(--text-color);
+  transition:all .3s ease;
+}
+
+.social-links a:hover{
+  transform:translateY(-2px);
+  box-shadow:0 0 20px rgba(34,211,238,.4);
+}
+
 
 
 
