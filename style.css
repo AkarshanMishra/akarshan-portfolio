@@ -505,6 +505,19 @@ body.light{
     margin-bottom:24px;
   }
 }
+.about-bullets{
+  max-width:800px;
+  margin:0 auto;
+  padding-left:20px;
+}
+
+.about-bullets li{
+  margin-bottom:14px;
+  line-height:1.6;
+  font-size:15px;
+  list-style-type:disc;
+}
+
 
 
 
